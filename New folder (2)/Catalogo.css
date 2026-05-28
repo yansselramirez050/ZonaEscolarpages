@@ -1,0 +1,195 @@
+body{
+background-color: #ffffff;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #06124e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.Logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+  gap: 20px;
+  margin-left: auto ;
+  margin-right: 50px;
+ 
+}
+.menu a{
+    color: white;
+  margin-left: auto 50px;
+  gap: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3;
+  
+}
+.menu a:hover{
+   color: rgb(3, 252, 231); 
+           box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+i{
+    color: rgb(255, 255, 255);
+width: 30px;
+}
+
+
+main{
+    flex: 1px;
+}
+
+
+footer{
+    background-color: #06124e;
+    padding: 20px;
+
+}
+.menu2{
+    background: #07135c;
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+ color: rgb(3, 252, 231); 
+           box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+
+.hero{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    padding:20px;}
+
+    .hero h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size:60px;
+
+}
+.productos{
+    width: 550%;
+    height: 375px;
+    background:white;
+    margin: auto 50px;
+    padding: 45px;
+    border-radius:20px;
+    text-align:center;
+    justify-content: center;
+font-size: 18px;
+    transition:0.3s;
+    gap: 50px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+.productos p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button{
+    margin-top:10px;
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    background: #06124e;
+    color:white;
+
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+
+.productos:hover{
+    transform:translateY(-10px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.productos img{
+    width:200px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.productos:hover img{
+    transform:scale(1.05);}
+
+   
+    
+.Contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.productos{
+    width: 200px;
+    height: 375px;
+  
+}
+
+img {
+width: 45px;
+height:175px ;
+
+}
+p{
+    font-family: Arial;
+    font-size: 35px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.precio {
+
+color: red;
+}
+
+ i{
+    color: white;
+ }
+
+section{
+    background-image:url(fondo.jpg);
+    width: 100%;
+    height: 70px;
+}
+    
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+    
